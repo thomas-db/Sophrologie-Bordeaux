@@ -1,0 +1,25 @@
+:root{
+  --color-primary-dashedColor: #98a0ab;
+}
+
+/* PRIMARY COLORS */
+$color-primary-darkblue: #1B2736;
+$color-primary-linkBlue: #1C57A1;
+$color-primary-green: #6CC788;
+$color-primary-bgGray: #F0F0F0;
+$color-primary-gray1: #DCDFE6;
+$color-primary-gray2: #E0E0E0;
+$color-primary-dashedColor: #98a0ab;
+$color-primary-white: white;
+
+
+/* GRAYS */
+$color-gray-d5: red;
+
+
+
+.classroom {
+  /* No need to import, it just works \o/ */
+  background: $color-gray-d5;
+}
+

@@ -1,0 +1,17 @@
+.Footer {
+    width: 100%;
+}
+
+.Footer__client-infos {
+    @apply bg-green;
+    padding: 8px;
+}
+
+.Footer__rights {
+    @apply bg-blue;
+    padding: 8px;
+}
+
+.client-infos__content {
+
+}
