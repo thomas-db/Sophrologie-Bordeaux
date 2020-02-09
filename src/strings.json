@@ -4,6 +4,16 @@
         "en-US": "What is sophrology?",
         "en-gb": "What is sophrology?"
     },
+    "who_am_i": {
+        "fr": "Qui suis-je ?",
+        "en-US": "Who am I ?",
+        "en-gb": "Who am I ?"
+    },
+    "contact_and_prices": {
+        "fr": "Contact et tarifs",
+        "en-US": "Contact and prices",
+        "en-gb": "Contact and prices"
+    },
     "not_hesitate_to_contact_me": {
         "fr": "N’hésitez pas à me contacter au 06 08 77 88 95",
         "en-US": "Do not hesitate to contact me on 06 08 77 88 95",
