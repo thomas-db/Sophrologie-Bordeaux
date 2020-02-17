@@ -14,8 +14,8 @@
             </div>
         </div>
         <div class="Footer__rights">
-            <div class="rights__content content p-32">
-                OK FOOTER
+            <div class="rights__content content p-16 text-center">
+                Made with 🤙 by <a href="http://thomasdebrabander.fr/" class="underline">Thomasdebrabander.fr</a>
             </div>
         </div>
     </footer>

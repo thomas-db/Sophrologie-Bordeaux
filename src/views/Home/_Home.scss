@@ -1,14 +1,18 @@
-.Home {
-    background: url("../../assets/home_bg.jpg") no-repeat top;
-    background-size: 100% 360px;
-}
-
 .Home__content {
     background: white;
+    margin-top: -280px;
 }
 
 .Home__profil_image {
     width: 200px;
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.top-bg {
+    width: 100%;
+    height: 360px;
+    top: 0;
+    background: url("../../assets/home_bg_3.jpg");
+    background-size: cover;
 }

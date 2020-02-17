@@ -1,5 +1,6 @@
 <template>
-    <div class="Home p-top-80 ">
+    <div class="Home ">
+        <div class="top-bg"></div>
         <div class="Home__content content shadow1 p-64">
             <div class="flex bg-gray-200">
                 <div class="flex-none" style="margin-left: 32px;">
@@ -25,7 +26,7 @@
     </div>
 </template>
 
-<style type="text/scss" scoped>
+<style type="text/scss">
     @import "./_Home.scss";
 </style>
 
