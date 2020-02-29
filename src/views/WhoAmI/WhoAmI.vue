@@ -26,9 +26,9 @@
                     <h2 class="underline">Ma formation de sophrologue</h2>
                     <br />
                     <p>
-                        Je suis devenue <span class="font-semibold">sophrologue praticienne certifiée (Rncp) adhérente
-                        au S.S.I. Syndicat des Sophrologues Indépendants, après 2 années de formation à l’Ecole ISEBA de
-                        Bordeaux</span> au cours desquelles la sophrologie est
+                        Je suis devenue <span class="font-semibold">sophrologue praticienne certifiée (Rncp)
+                        adhérente à la SFS, Société Française de Sophrologie, après 2 années de formation à l’Ecole
+                        ISEBA de Bordeaux </span> au cours desquelles la sophrologie est
                         <span class="font-semibold">devenue ma passion.</span>
                         <br /><br />
                         Je poursuis ma formation avec une spécialisation  sur des domaines spécifiques:
@@ -47,7 +47,7 @@
                     <img src="../../assets/ecole_sophro_bdx.png" style="width: 200px;"/>
                     <br />
                     <br />
-                    <img src="../../assets/ssi.png" style="width: 200px;"/>
+                    <img src="../../assets/sfs_logo.png" style="width: 200px;"/>
                 </div>
             </div>
             <br/>

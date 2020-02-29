@@ -9,6 +9,16 @@
         "en-US": "Who am I ?",
         "en-gb": "Who am I ?"
     },
+    "sophrology_in_business": {
+        "fr": "Sophrologie en entreprise",
+        "en-US": "Sophrology in business",
+        "en-gb": "Sophrology in business"
+    },
+    "sessions": {
+        "fr": "Séances",
+        "en-US": "Sessions",
+        "en-gb": "Sessions"
+    },
     "contact_and_prices": {
         "fr": "Contact et tarifs",
         "en-US": "Contact and prices",

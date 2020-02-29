@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="Footer__rights">
-            <div class="rights__content content p-16 text-center">
+            <div class="rights__content content p-8 text-center" style="font-size: 14px;">
                 Made with 🤙 by <a href="http://thomasdebrabander.fr/" class="underline">Thomasdebrabander.fr</a>
             </div>
         </div>

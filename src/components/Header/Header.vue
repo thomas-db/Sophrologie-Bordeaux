@@ -15,6 +15,16 @@
                     </router-link>
                 </div>
                 <div class="inline-block align-middle m-left-16">
+                    <router-link to="/sophrologie-en-entreprise">
+                        {{$languages.strings.sophrology_in_business[$languages.country]}}
+                    </router-link>
+                </div>
+                <div class="inline-block align-middle m-left-16">
+                    <router-link to="/seances">
+                        {{$languages.strings.sessions[$languages.country]}}
+                    </router-link>
+                </div>
+                <div class="inline-block align-middle m-left-16">
                     <router-link to="/contact-et-tarifs">
                         {{$languages.strings.contact_and_prices[$languages.country]}}
                     </router-link>

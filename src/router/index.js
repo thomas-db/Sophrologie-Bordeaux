@@ -3,6 +3,8 @@ import VueRouter from "vue-router";
 import Home from "../views/Home/Home.vue";
 import WhoAmI from "../views/WhoAmI/WhoAmI.vue";
 import WhatIsSophrology from "../views/WhatIsSophrology/WhatIsSophrology.vue";
+import Sessions from "../views/Sessions/Sessions.vue";
+import SophrologyForBusiness from "../views/SophrologyForBusiness/SophrologyForBusiness.vue";
 import ContactAndPrices from "../views/ContactAndPrices/ContactAndPrices";
 
 Vue.use(VueRouter);
@@ -24,6 +26,26 @@ const routes = [
     component: WhatIsSophrology
   },
   {
+    path: "/qu-est-ce-que-la-sophrologie",
+    name: "WhatIsSophrology",
+    component: WhatIsSophrology
+  },
+  {
+    path: "/qu-est-ce-que-la-sophrologie",
+    name: "WhatIsSophrology",
+    component: WhatIsSophrology
+  },
+  {
+    path: "/sophrologie-en-entreprise",
+    name: "SophrologyForBusiness",
+    component: SophrologyForBusiness
+  },
+  {
+    path: "/seances",
+    name: "Sessions",
+    component: Sessions
+  },
+  {
     path: "/contact-et-tarifs",
     name: "ContactAndPrices",
     component: ContactAndPrices
@@ -35,7 +57,10 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  routes
+  routes,
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 });
 
 export default router;
