@@ -1,7 +1,7 @@
 <template>
     <div class="WhatIsSophrology">
-        <div class="top-bg"></div>
-        <div class="WhoAmI__content content shadow1 p-64">
+        <div class="WhatIsSophrology__top-bg"></div>
+        <div class="WhatIsSophrology__content content shadow1 p-64">
             <h1>Et si votre bien-être passait par  la sophrologie existentielle ?</h1>
             <div class="flex bg-gray-200 m-top-32">
                 <div class="flex-grow">

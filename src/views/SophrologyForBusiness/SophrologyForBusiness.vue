@@ -1,6 +1,6 @@
 <template>
     <div class="SophrologyForBusiness">
-        <div class="top-bg"></div>
+        <div class="SophrologyForBusiness__top-bg"></div>
         <div class="SophrologyForBusiness__content content shadow1 p-64">
             <h1>Et si la santé de votre entreprise passait par le bien-être de vos collaborateurs? </h1>
             <div class="flex bg-gray-200 m-top-32">
