@@ -11,7 +11,7 @@
                     <h2>Sophrologue praticienne à Bordeaux Chartrons</h2>
                     <br />
                     <p>La sophrologie est un outil fabuleux qui permet d’être pilote de sa vie, d’optimiser ses capacités et de s’adapter au mieux aux situations que l’on rencontre.</p>
-                    <p>Complètement convaincue de ses bienfaits, je suis heureuse de faire partager ce formidable outil d’épanouissement et de bien-être qui vous permettra de trouver un équilibre à la fois mental, émotionnel et corporel.</p>
+                    <p>Complètement convaincue de ses bienfaits, je suis heureuse de partager ce formidable outil d’épanouissement et de bien-être qui vous permettra de trouver un équilibre à la fois mental, émotionnel et corporel.</p>
                     <br />
                     <p>Vous trouverez ici des informations sur <a class="font-semibold underline" href="#">mon approche</a>, <a class="font-semibold underline" href="#">ma pratique</a> et <a class="font-semibold underline" href="#">mes coordonnées</a> afin de prendre un rendez-vous. Bonne visite et à très bientôt !</p>
                 </div>

@@ -4,6 +4,8 @@ import router from "./router";
 import store from "./store";
 import stringsJson from './strings.json';
 import '@/scss/tailwind.css'
+import 'element-ui/lib/theme-chalk/index.css';
+import ElementUI from 'element-ui';
 
 Vue.config.productionTip = false;
 Vue.prototype.$languages = {
@@ -11,6 +13,7 @@ Vue.prototype.$languages = {
   strings: stringsJson
 };
 
+Vue.use(ElementUI);
 
 new Vue({
   router,
