@@ -45,16 +45,26 @@
                     <br />
                     <br />
                     <h3 class="underline">Ou par e-mail: </h3>
-                    <el-input placeholder="Adresse mail" v-model="contact.email" class="m-top-8" style="width: 80%;"></el-input>
-                    <br />
-                    <el-input
-                            type="textarea"
-                            :rows="7"
-                            placeholder="Contenue du message"
-                            class="m-top-8"
-                            v-model="contact.content">
-                    </el-input>
-                    <button class="btn m-top-8">Envoyer</button>
+                    <form @submit.prevent="sendEmail" id="send-email-form">
+                        <el-input placeholder="Adresse mail"
+                                  v-model="contact.email"
+                                  required
+                                  type="email"
+                                  name="_replyto"
+                                  class="m-top-8"
+                                  style="width: 80%;"></el-input>
+                        <br />
+                        <el-input
+                                type="textarea"
+                                name="message"
+                                :rows="7"
+                                placeholder="Contenue du message"
+                                class="m-top-8"
+                                required
+                                v-model="contact.content">
+                        </el-input>
+                        <button class="btn m-top-8" ref="buttonSendEmailRef">Envoyer</button>
+                    </form>
                 </div>
                 <div class="w-1/2" style="margin-left: 32px;">
                     <h1>Tarifs</h1>
@@ -86,6 +96,8 @@
 </style>
 
 <script>
+    import axios from "axios";
+
     export default {
         props: {
         },
@@ -97,5 +109,52 @@
                 },
             };
         },
+        methods: {
+            sendEmail() {
+                if (this.contact.email && this.contact.content) {
+                    /** Button active loading mode */
+                    let day = new Date().getDay();
+
+                    /** On free formspree only 50 mails per form, so i have two forms */
+                    let formspreeId = "mlenzdzb";
+                    if (day >= 15)
+                        formspreeId = "mlenzdqb";
+
+                    this.$refs.buttonSendEmailRef.disabled = true;
+                    this.$refs.buttonSendEmailRef.classList.add("loading");
+                    /** https://www.youtube.com/watch?v=tGEi95Z7duw */
+                    /** https://formspree.io/ */
+                    return new Promise((resolve, reject) => {
+                        axios.post(`https://formspree.io/${formspreeId}`, { message: this.contact.content, _replyto: this.contact.email }).then((response) => {
+
+                            this.$notify({
+                                title: 'Succès',
+                                message: "Votre mail a bien été envoyé",
+                                type: 'success'
+                            });
+                            /** Reset button */
+                            this.$refs.buttonSendEmailRef.disabled = false;
+                            this.$refs.buttonSendEmailRef.classList.remove("loading");
+                            resolve();
+                        }).catch((error) => {
+                            this.$notify.error({
+                                    title: "Erreur lors de l'envoie de mail",
+                                    message: `Le mail n'a pas été envoyé`
+                                });
+                            /** Reset button */
+                            this.$refs.buttonSendEmailRef.disabled = false;
+                            this.$refs.buttonSendEmailRef.classList.remove("loading");
+                            reject();
+                        });
+                    });
+                } else {
+                    this.$notify({
+                        title: 'Attention',
+                        message: "Vous n'avez pas rempli toutes les informations",
+                        type: 'warning'
+                    });
+                }
+            }
+        }
     };
 </script>
