@@ -1,7 +1,7 @@
 <template>
     <div class="SophrologieLogo">
         <router-link to="/">
-            <table class="inline-block">
+            <table style="width: 184px; " class="inline-block">
                 <tr>
                     <td>
                         <img src="@/assets/logo_jpg.jpg" style="width: 56px;" class="inline-block">

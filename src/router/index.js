@@ -26,16 +26,6 @@ const routes = [
     component: WhatIsSophrology
   },
   {
-    path: "/qu-est-ce-que-la-sophrologie",
-    name: "WhatIsSophrology",
-    component: WhatIsSophrology
-  },
-  {
-    path: "/qu-est-ce-que-la-sophrologie",
-    name: "WhatIsSophrology",
-    component: WhatIsSophrology
-  },
-  {
     path: "/sophrologie-en-entreprise",
     name: "SophrologyForBusiness",
     component: SophrologyForBusiness

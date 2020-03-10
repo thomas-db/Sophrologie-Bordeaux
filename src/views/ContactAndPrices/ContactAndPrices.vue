@@ -41,7 +41,7 @@
             <div class="flex bg-gray-200">
                 <div class="w-1/2">
                     <h1>Contact</h1>
-                    <h3 class="underline inline-block m-top-8">Contacter moi au: </h3> <h3 class="inline-block">06 08 77 88 95</h3>
+                    <h3 class="underline inline-block m-top-8">Contactez moi au: </h3> <h3 class="inline-block">06 08 77 88 95</h3>
                     <br />
                     <br />
                     <h3 class="underline">Ou par e-mail: </h3>
