@@ -43,7 +43,7 @@
                         qualité, bienveillant et adapté à chaque individualité, à chaque problématique.
                     </p>
                 </div>
-                <div class="flex-none" style="margin-left: 32px;">
+                <div class="formation-image flex-none" style="margin-left: 32px;">
                     <img src="../../assets/ecole_sophro_bdx.png" style="width: 200px;"/>
                     <br />
                     <br />

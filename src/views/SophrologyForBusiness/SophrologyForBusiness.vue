@@ -14,7 +14,7 @@
                         turnover.</span>
                     </p>
                 </div>
-                <div class="flex-none" style="margin-left: 32px;">
+                <div class="business-image" style="margin-left: 32px;">
                     <img src="../../assets/profil_2.jpg" class="m-top-64" style="width: 200px;"/>
                 </div>
             </div>

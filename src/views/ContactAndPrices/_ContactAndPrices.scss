@@ -21,6 +21,61 @@
 
 }
 
+.content--first-block {
+ @apply flex;
+}
+
+.content--second-block {
+ @apply flex;
+}
+
+.first-block--consultation {
+  @apply w-1/2;
+}
+
+.first-block--business-and-events {
+  @apply w-1/2;
+  margin-left: 32px;
+}
+
+.second-block--contact {
+  @apply w-1/2;
+}
+
+.second-block--individual {
+  @apply w-1/2;
+  margin-left: 32px;
+}
+
+@media screen and (max-width: 780px) {
+  .content--first-block {
+    display: block;
+  }
+
+  .content--second-block {
+    display: block;
+  }
+
+  .first-block--consultation {
+    @apply w-full;
+  }
+
+  .first-block--business-and-events {
+    @apply w-full;
+    margin-left: 0;
+  }
+
+  .second-block--contact {
+    @apply w-full;
+  }
+
+  .second-block--individual {
+    margin-top: 32px;
+    @apply w-full;
+    margin-left: 0;
+  }
+}
+
 //.mapouter
 //{position:relative;text-align:right;height:500px;width:600px;}
 //

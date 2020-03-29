@@ -22,3 +22,27 @@ a.header-link {
 a.header-link-focus {
     font-weight: 500;
 }
+
+.header__burger-menu {
+    display: none !important;
+}
+
+.mobile-header-title {
+    display: none !important;
+}
+
+@media screen and (max-width: 780px) {
+    .header__burger-menu {
+        display: block !important;
+    }
+
+    .header__normal-size {
+        display: none !important;
+        margin: 0;
+    }
+
+    .mobile-header-title {
+        display: flex !important;
+    }
+}
+

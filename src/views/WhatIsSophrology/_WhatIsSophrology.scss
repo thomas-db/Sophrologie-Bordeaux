@@ -16,3 +16,13 @@
   margin-top: -340px;
   border-radius: 5px;
 }
+
+.origin-sophro-image {
+  @apply flex-none;
+}
+
+@media screen and (max-width: 780px) {
+  .origin-sophro-image {
+    display: none;
+  }
+}

@@ -25,6 +25,7 @@ h1 {
   font-weight: 400 !important;
 }
 
+
 h2 {
   @apply font-semibold text-lg;
 }
@@ -271,6 +272,11 @@ h4 {
 .p-top-80 {
   padding-top: 80px;
 }
+
+.p-left-right-16 {
+  padding: 0 16px !important;
+}
+
 
 /** Margins */
 

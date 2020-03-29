@@ -1,7 +1,21 @@
 .Home__content {
+    padding: 64px;
     background: white;
     margin-top: -240px;
     border-radius: 5px;
+}
+
+.Home__content__content {
+    @apply flex;
+}
+
+.content--profil-image {
+    @apply flex-none;
+}
+
+.content--text {
+    @apply flex-grow;
+    margin-left: 64px;
 }
 
 .Home__profil_image {
@@ -16,4 +30,23 @@
     top: 0;
     background: url("../../assets/home_bg_3.jpg");
     background-size: cover;
+}
+
+@media screen and (max-width: 780px) {
+    .Home__content {
+        padding: 32px;
+    }
+
+    .Home__content__content {
+        display: block;
+    }
+
+    .content--profil-image {
+        display: none;
+    }
+
+    .content--text {
+        display: block;
+        margin-left: 0;
+    }
 }

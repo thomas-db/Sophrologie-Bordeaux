@@ -1,12 +1,12 @@
 <template>
     <div class="Home ">
         <div class="top-bg"></div>
-        <div class="Home__content content shadow1 p-64">
-            <div class="flex bg-gray-200">
-                <div class="flex-none" style="margin-left: 32px;">
+        <div class="Home__content content shadow1">
+            <div class="Home__content__content  bg-gray-200">
+                <div class="content--profil-image " style="margin-left: 32px;">
                     <img src="../../assets/profil_picture.jpg" class="Home__profil_image"/>
                 </div>
-                <div class="flex-grow" style="margin-left: 64px;">
+                <div class="content--text " style="">
                     <h1>France Ehny</h1>
                     <h2>Sophrologue praticienne à Bordeaux Chartrons</h2>
                     <br />

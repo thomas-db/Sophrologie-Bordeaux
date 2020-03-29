@@ -7,3 +7,9 @@
     margin-top: -240px;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 780px) {
+    .formation-image {
+        display: none;
+    }
+}

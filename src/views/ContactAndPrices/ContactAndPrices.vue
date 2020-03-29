@@ -2,8 +2,8 @@
     <div class="ContactAndPrices">
         <div class="ContactAndPrices__top-bg"></div>
         <div class="ContactAndPrices__content content shadow1 p-64">
-            <div class="flex bg-gray-200">
-                <div class="w-1/2">
+            <div class="content--first-block bg-gray-200">
+                <div class="first-block--consultation">
                     <h1>Consultation</h1>
                     <h3 class="inline-block m-top-8">• <span class="underline">Consultations individuelles</span></h3>
                     <div class="m-left-13 m-top-16">
@@ -21,7 +21,7 @@
                     <a href="https://www.embedgooglemap.net/blog/elementor-review/"></a>
 
                 </div>
-                <div class="w-1/2" style="margin-left: 32px;">
+                <div class="first-block--business-and-events" style="">
                     <h1 style="color:white; user-select: none;">-</h1>
                     <h3 class="inline-block m-top-8">• <span class="underline">Entreprises séances individuelles ou en groupes</span></h3>
                     <div class="m-left-13 m-top-16">Je me déplace sur le lieu de votre établissement.
@@ -38,8 +38,8 @@
             </div>
             <br />
             <br />
-            <div class="flex bg-gray-200">
-                <div class="w-1/2">
+            <div class="content--second-block bg-gray-200">
+                <div class="second-block--contact">
                     <h1>Contact</h1>
                     <h3 class="underline inline-block m-top-8">Contactez moi au: </h3> <h3 class="inline-block">06 08 77 88 95</h3>
                     <br />
@@ -66,7 +66,7 @@
                         <button class="btn m-top-8" ref="buttonSendEmailRef">Envoyer</button>
                     </form>
                 </div>
-                <div class="w-1/2" style="margin-left: 32px;">
+                <div class="second-block--individual">
                     <h1>Tarifs</h1>
                     <div>• Séance individuelle : 50 €<br />
                         <div class="m-left-13">étudiants, -25 ans, demandeurs d’emploi : 40 €</div>

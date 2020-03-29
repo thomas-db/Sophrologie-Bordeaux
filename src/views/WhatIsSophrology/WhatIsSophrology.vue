@@ -14,10 +14,10 @@
                         <br />
                         Il s’est inspiré à la fois de certaines techniques de relaxation, de techniques orientales
                         (yoga, bouddhisme et zen) adaptées aux besoins et capacités de notre civilisation occidentale
-                        mais également à l’évolution des sciences en neurologie et en biologie.
+                        mais également à l’évolution des sciences en neurologie et en biologie.sd
                     </p>
                 </div>
-                <div class="flex-none" style="margin-left: 32px;">
+                <div class="origin-sophro-image " style="margin-left: 32px;">
                     <img src="../../assets/utcons.jpg" class="m-top-64" style="width: 200px;"/>
                 </div>
             </div>
