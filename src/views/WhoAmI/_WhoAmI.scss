@@ -3,9 +3,11 @@
 }
 
 .WhoAmI__content {
-    background: white;
-    margin-top: -240px;
-    border-radius: 5px;
+}
+
+.top-bg {
+    background: url("../../assets/home_bg_3.jpg");
+    background-size: cover;
 }
 
 @media screen and (max-width: 780px) {

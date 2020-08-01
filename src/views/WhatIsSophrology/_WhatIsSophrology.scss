@@ -15,6 +15,7 @@
   background: white;
   margin-top: -340px;
   border-radius: 5px;
+  padding:64px;
 }
 
 .origin-sophro-image {
@@ -24,5 +25,9 @@
 @media screen and (max-width: 780px) {
   .origin-sophro-image {
     display: none;
+  }
+
+  .WhatIsSophrology__content {
+    padding: 32px;
   }
 }

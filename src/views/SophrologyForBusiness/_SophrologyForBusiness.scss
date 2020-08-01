@@ -6,6 +6,7 @@
     background: white;
     border-radius: 5px;
     margin-top: -340px;
+    padding: 64px;
 }
 
 .SophrologyForBusiness__top-bg {
@@ -23,5 +24,9 @@
 @media screen and (max-width: 780px) {
     .business-image {
         display: none;
+    }
+
+    .SophrologyForBusiness__content {
+        padding: 32px;
     }
 }

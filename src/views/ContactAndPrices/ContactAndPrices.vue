@@ -1,7 +1,7 @@
 <template>
     <div class="ContactAndPrices">
-        <div class="ContactAndPrices__top-bg"></div>
-        <div class="ContactAndPrices__content content shadow1 p-64">
+        <div class="ContactAndPrices__top-bg page-top-bg"></div>
+        <div class="ContactAndPrices__content page-content content shadow1">
             <div class="content--first-block bg-gray-200">
                 <div class="first-block--consultation">
                     <h1>Consultation</h1>
@@ -44,7 +44,7 @@
                     <h3 class="underline inline-block m-top-8">Contactez moi au: </h3> <h3 class="inline-block">06 08 77 88 95</h3>
                     <br />
                     <br />
-                    <h3 class="underline">Ou par e-mail: </h3>
+                    <h3 class="underline">Ou par e-mail: (france.ehny@gmail.com)</h3>
                     <form @submit.prevent="sendEmail" id="send-email-form">
                         <el-input placeholder="Adresse mail"
                                   v-model="contact.email"
@@ -124,6 +124,7 @@
                     this.$refs.buttonSendEmailRef.classList.add("loading");
                     /** https://www.youtube.com/watch?v=tGEi95Z7duw */
                     /** https://formspree.io/ */
+                    /** debra...@gmail.com*/
                     return new Promise((resolve, reject) => {
                         axios.post(`https://formspree.io/${formspreeId}`, { message: this.contact.content, _replyto: this.contact.email }).then((response) => {
 

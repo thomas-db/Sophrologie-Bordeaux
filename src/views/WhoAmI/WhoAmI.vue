@@ -1,7 +1,7 @@
 <template>
     <div class="WhoAmI">
-        <div class="top-bg"></div>
-        <div class="WhoAmI__content content shadow1 p-64">
+        <div class="top-bg page-top-bg"></div>
+        <div class="WhoAmI__content page-content content shadow1">
             <h2 class="underline">Comment je suis venue à la sophrologie</h2>
             <br />
             <p>

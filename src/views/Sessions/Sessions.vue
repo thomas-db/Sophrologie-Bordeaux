@@ -1,7 +1,7 @@
 <template>
     <div class="Sessions">
-        <div class="Sessions__top-bg"></div>
-        <div class="Sessions__content content shadow1 p-64">
+        <div class="Sessions__top-bg page-top-bg"></div>
+        <div class="Sessions__content page-content content shadow1">
             <h1>Un accompagnement de qualité, bienveillant et adapté à chaque individualité, à chaque problématique</h1>
             <div class="bg-gray-200 m-top-32">
                 <div class="">
