@@ -12,7 +12,7 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          ftp-server: sftp://home538900693.1and1-data.host/
+          ftp-server: home538900693.1and1-data.host/
           ftp-username: u76543727-vt
           ftp-password: ${{ secrets.SFTP_PASSWORD }}
           local-dir: ./ftptest/
