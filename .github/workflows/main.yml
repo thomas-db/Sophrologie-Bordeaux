@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [8.x, 10.x, 12.x]
+        node-version: [10.x]
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
@@ -15,7 +15,9 @@ jobs:
       - run: npm install
       - run: npm run build
         env:
-          CI: true
+          REPO: git@github.com:thomas-db/Sophrologie-Bordeaux.git
+          BRANCH: master
+          FOLDER: dist
 
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
@@ -29,7 +31,7 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-#          local-dir: ./dist/
+          local-dir: ./dist/
           ftp-server: ftp://home538900693.1and1-data.host/ftptest
           ftp-username: u76543727-vt
           ftp-password: ${{ secrets.SFTP_PASSWORD }}
