@@ -26,7 +26,7 @@ jobs:
           FTP_SERVER: ftp://home538900693.1and1-data.host/ftptest
           FTP_USERNAME: u76543727-vt
           FTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
-          LOCAL_DIR: build
+          LOCAL_DIR: dist
           ARGS: --delete
 
 #on: push
