@@ -30,7 +30,7 @@ jobs:
 #          ARGS: --delete
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          local-dir: ./dist
+          local-dir: dist
           ftp-server: ftp://home538900693.1and1-data.host/ftptest
           ftp-username: u76543727-vt
           ftp-password: ${{ secrets.SFTP_PASSWORD }}
