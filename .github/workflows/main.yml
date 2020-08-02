@@ -39,8 +39,7 @@ jobs:
           ftp-server: ftp://home538900693.1and1-data.host/ftptest
           ftp-username: u76543727-vt
           ftp-password: ${{ secrets.SFTP_PASSWORD }}
-          forceSsl: true
-          local-dir: dist
+          local-dir: ./dist
           ARGS: --delete
 
 #on: push
