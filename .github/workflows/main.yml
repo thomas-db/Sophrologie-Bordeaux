@@ -29,11 +29,11 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          ftp-server: ftp://home538900693.1and1-data.host/ftptest
+          ftp-server: ftps://home538900693.1and1-data.host/ftptest
           ftp-username: u76543727-vt
           ftp-password: ${{ secrets.SFTP_PASSWORD }}
           local-dir: dist
-          args: --insecure
+          git-ftp-args: --insecure # if your certificate is setup correctly this can be removed
 #        uses: SamKirkland/FTP-Deploy-Action@3.1.1
 #        with:
 #          ftp-server: ftp://home538900693.1and1-data.host/ftptest
