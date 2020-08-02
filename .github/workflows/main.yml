@@ -21,12 +21,19 @@ jobs:
         run: ls
 
       - name: FTP-Deploy-Action
-        uses: SamKirkland/FTP-Deploy-Action@2.0.0
-        env:
-          FTP_SERVER: ftp://home538900693.1and1-data.host/ftptest
-          FTP_USERNAME: u76543727-vt
-          FTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
-          LOCAL_DIR: dist
+#        uses: SamKirkland/FTP-Deploy-Action@2.0.0
+#        env:
+#          FTP_SERVER: ftp://home538900693.1and1-data.host/ftptest
+#          FTP_USERNAME: u76543727-vt
+#          FTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
+#          LOCAL_DIR: dist
+#          ARGS: --delete
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        with:
+          local-dir: ./dist
+          ftp-server: ftp://home538900693.1and1-data.host/ftptest
+          ftp-username: u76543727-vt
+          ftp-password: ${{ secrets.SFTP_PASSWORD }}
           ARGS: --delete
 
 #on: push
