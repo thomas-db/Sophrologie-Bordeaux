@@ -1,4 +1,6 @@
 # Needed to add git-ftp-include
+# https://medium.com/@SimonEast/how-to-build-and-deploy-vuepress-via-ftp-using-bitbucket-pipelines-b65b0dd95791
+# https://github.com/marketplace/actions/ftp-deploy
 
 on: push
 name: Build and Publish Front End Framework Website
