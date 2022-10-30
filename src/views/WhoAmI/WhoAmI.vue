@@ -17,7 +17,7 @@
                 dans sa globalité: physique-mental-émotionnel-spirituel, j’ai recherché des outils et des méthodes
                 permettant d’accéder à une <span class="font-semibold">meilleure connaissance de soi</span> et à un
                 <span class="font-semibold">mieux-être</span>. C’est ainsi que j’ai découvert la sophrologie. Ce fut une
-                révélation!  J’ai eu rapidement l’envie de me former sur la pratique afin de partager cet outil formidable
+                révélation!  J’ai eu rapidement l’envie de me former sur la pratique afin de partager cet outil formidable.
             </p>
             <br />
             <br />
