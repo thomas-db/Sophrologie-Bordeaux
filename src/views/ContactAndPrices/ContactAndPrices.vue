@@ -6,7 +6,7 @@
                 <div class="first-block--consultation">
                     <h1>Consultation</h1>
 
-
+                  <!-- Doctolib commented
                   <h3 class="inline-block m-top-8" style="text-decoration: none;">• <span class="underline">Prise de rendez-vous en ligne avec Doctolib</span></h3>
                   <div class="m-left-13 m-top-16">
                     <a href="https://www.doctolib.fr/sophrologue/bordeaux/france-ehny?utm_campaign=website-button&amp;utm_source=france-ehny-website-button&amp;utm_medium=referral&amp;utm_content=option-3&amp;utm_term=france-ehny"
@@ -14,6 +14,7 @@
                       <button class="docto-button">Prendre rendez-vous !</button>
                     </a>
                   </div>
+                  -->
                     <h3 class="inline-block m-top-32">• <span class="underline">Consultations individuelles</span></h3>
                     <div class="m-left-13 m-top-16">
                         Je vous reçois à mon domicile,<br />
