@@ -66,6 +66,15 @@
 
 <script>
     export default {
+      metaInfo: {
+        title: 'Qui suis-je',
+        titleTemplate: `%s - Sophrologie Bordeaux`,
+        meta: [
+          {'http-equiv': 'Content-Type', content: 'text/html; charset=utf-8'},
+          {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+          {name: 'description', content: "Sophrologue à Bordeaux. La sophrologie est un outil fabuleux qui permet d’être pilote de sa vie, d’optimiser ses capacités et de s’adapter au..."}
+        ]
+      },
         props: {
         },
     };
