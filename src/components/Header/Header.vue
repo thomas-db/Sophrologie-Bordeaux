@@ -5,7 +5,7 @@
                     <div class="flex-wrap">
                         <el-dropdown trigger="click" class="header__burger-menu">
                         <span class="el-dropdown-link">
-                            <img src="../../assets/burger-menu-icon.png" style="width: 36px; height: 36px;"/>
+                            <img src="../../assets/burger-menu-icon.png" style="width: 36px; height: 36px;" alt="burger-btn"/>
                         </span>
                             <el-dropdown-menu slot="dropdown">
                                 <router-link :to="`/`" class="header-link">

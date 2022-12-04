@@ -47,7 +47,7 @@
                     <img src="../../assets/ecole_sophro_bdx.png" style="width: 200px;"/>
                     <br />
                     <br />
-                    <img src="../../assets/sfs_logo.png" style="width: 200px;"/>
+                    <img src="../../assets/sfs_logo.png" style="width: 200px;" alt="Sophrologie"/>
                 </div>
             </div>
             <br/>

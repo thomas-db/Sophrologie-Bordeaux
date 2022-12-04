@@ -5,7 +5,7 @@
             <div class="Home__content__content  bg-gray-200">
                 <div class="content--profil-image " style="margin-left: 32px;">
 <!--                    <img src="../../assets/profil_picture.jpg" class="Home__profil_image"/>-->
-                    <img src="../../assets/profil_3.jpg" class="Home__profil_image"/>
+                    <img src="../../assets/profil_3.jpg" class="Home__profil_image" alt="Sophrologue France Ehny"/>
                 </div>
                 <div class="content--text " style="">
                     <h1>France Ehny</h1>
