@@ -18,7 +18,7 @@
                     </p>
                 </div>
                 <div class="origin-sophro-image " style="margin-left: 32px;">
-                    <img src="../../assets/utcons.jpg" class="m-top-64" style="width: 200px;"/>
+                    <img src="../../assets/utcons.jpg" class="m-top-64" style="width: 200px;" alt="utcons"/>
                 </div>
             </div>
             <br />

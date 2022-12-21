@@ -32,7 +32,7 @@
 
                 </div>
                 <div class="first-block--business-and-events" style="">
-                    <img src="@/assets/photo_cabinet.jpg" style="width: 100%;" class="inline-block">
+                    <img src="@/assets/photo_cabinet.jpg" style="width: 100%;" class="inline-block" alt="cabinet_picture">
                     <h1 style="color:white; user-select: none;">-</h1>
                     <h3 class="inline-block m-top-8">• <span class="underline">Entreprises séances individuelles ou en groupes</span></h3>
                     <div class="m-left-13 m-top-16">Je me déplace sur le lieu de votre établissement.
