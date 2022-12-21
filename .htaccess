@@ -1,0 +1,2 @@
+# Votre message d’erreur de l’emplacement externe
+ErrorDocument 404 / http://www.nom-de-votre-site.com/erreur/404.html
