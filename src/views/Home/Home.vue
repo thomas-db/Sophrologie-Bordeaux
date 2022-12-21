@@ -9,7 +9,9 @@
                 </div>
                 <div class="content--text " style="">
                     <h1>France Ehny</h1>
-                    <h2>Sophrologue praticienne à Bordeaux Chartrons</h2>
+                    <h2>Sophrologue spécialisée</h2>
+                    <h2>Sophrothérapeute</h2>
+                    <h2>Psychopraticienne en sophrologie existentielle</h2>
 <!--                    <div class="resp-container">-->
 <!--                        <iframe src="https://player.vimeo.com/video/442656287" class="resp-iframe" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>-->
 <!--                    </div>-->
