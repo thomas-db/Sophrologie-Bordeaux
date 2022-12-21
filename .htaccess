@@ -1,7 +1,3 @@
-# Votre message d’erreur de l’emplacement externe
-ErrorDocument 404 / http://www.nom-de-votre-site.com/erreur/404.html
-
-# Activez HTTPS
 RewriteEngine On
-RewriteCond %{Server_Port} !=443
-RewriteRule ^(.*)$ https://votre-domaine.fr/$1 [R=301,L]
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^(.*)$ https://sophrologuebordeaux.fr/#/$1 [R=301,L]
