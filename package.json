@@ -1,6 +1,6 @@
 {
-  "name": "Project",
-  "version": "0.1.2",
+  "name": "sophrologie_bordeaux_france_ehny",
+  "version": "0.1.3",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
